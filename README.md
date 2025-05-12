@@ -1,4 +1,6 @@
-# Multimodal Deep Learning for Modeling ATCO Command Lifecycle in Terminal Airspace
+# Multimodal Deep Learning for Modeling ATCO Command Lifecycle and Workload Prediction in Terminal Airspace
+
+[🇨🇳 中文文档](./README_zh.md)
 
 This repository contains the official implementation for the research project:
 
@@ -22,8 +24,8 @@ A multimodal ensemble strategy is applied to enhance prediction robustness and i
 
 ## 🧩 Features
 
-- ✅ Joint modeling of **Time Offset** and **Duration** as ATCO lifecycle targets
-- 🧠 **CNN-Transformer hybrid model** with structured, sequential, and visual inputs
-- 📈 Built-in baseline comparison using **LightGBM** and **TabPFN**
-- 📊 SHAP & Grad-CAM explainability for structured and image features
+- ✅ Joint modeling of **Time Offset** and **Duration** as ATCO lifecycle targets  
+- 🧠 **CNN-Transformer hybrid model** with structured, sequential, and visual inputs  
+- 📈 Built-in baseline comparison using **LightGBM** and **TabPFN**  
+- 📊 SHAP & Grad-CAM explainability for structured and image features  
 - 🧪 End-to-end training pipeline with data augmentation and ensemble inference
