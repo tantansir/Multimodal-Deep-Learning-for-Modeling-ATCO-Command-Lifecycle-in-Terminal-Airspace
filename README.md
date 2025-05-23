@@ -14,7 +14,7 @@ This project aims to model the **lifecycle of ATCO commands** in terminal airspa
 - ⏱ **Time Offset**: the delay between ATCO voice command and aircraft maneuver
 - 🗣 **Duration**: the time length of ATCO command speech segments
 
-The proposed model is a **CNN-Transformer hybrid architecture**, trained on real-world data from **Singapore Changi Airport’s TMA**, integrating:
+The proposed model is a **CNN-Transformer hybrid architecture**, trained on real-world data integrating:
 
 - Structured features: flight parameters, command types, environment variables
 - Historical trajectory sequences
